@@ -5,8 +5,108 @@
 img {
 }
 
-@media (min-width: 1200px) {
+.skillsinfo {
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 52px;
+  width: 406px;
+  display: block;
+  position: static;
+}
+
+.aboutmetext {
+  font-size: 16px;
+  font-weight: bold;
+  position: static;
+  display: block;
+  text-align: left;
+  margin-top: 74px;
+  margin-left: 52px;
+  color: rgb(78,78,78);
+}
+
+.myavatar {
+  min-height: 300px;
+  padding-right: 0px;
+  transition: none;
+  margin-left: -63px;
+  width: 354px;
+  height: 313px;
+}
+
+@media (max-width: 440px) {
+  .table-responsive {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar-brand {
+    margin-left: 187px;
+    visibility: hidden;
+  }
+}
+
+.myavatar {
+  min-height: 300px;
+  padding-right: 0px;
+  transition: none;
+  margin-left: -55px;
+  width: 350px;
+  height: 300px;
+}
+
+.skillsinfo {
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 20px;
+  width: 320px;
+  display: block;
+  position: static;
+}
+
+.aboutmetext {
+  font-size: 14px;
+  font-weight: bold;
+  position: static;
+  display: block;
+  text-align: left;
+  margin-top: 74px;
+  margin-left: 32px;
+  color: rgb(78,78,78);
+}
+
+@media (max-width: 440px) {
   img {
+    /*width: 50px;*/
+    /*visibility: hidden;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  .rounded img-fluid w-100 fit-cover {
+    width: 354px;
+    height: 313px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+  }
+}
+
+div {
+}
+
+@media (min-width: 400px) {
+  h2 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 16px;
   }
 }
 
