@@ -80,15 +80,17 @@
   }
 }
 
-.aboutmetext {
-  font-size: 14px;
-  font-weight: bold;
-  position: static;
-  display: block;
-  text-align: left;
-  margin-top: 74px;
-  margin-left: 32px;
-  color: rgb(78,78,78);
+@media (max-width: 420px) {
+  .aboutmetext {
+    font-size: 14px;
+    font-weight: bold;
+    position: static;
+    display: block;
+    text-align: left;
+    margin-top: 74px;
+    margin-left: 10px;
+    color: rgb(78,78,78);
+  }
 }
 
 @media (min-width: 1200px) {
