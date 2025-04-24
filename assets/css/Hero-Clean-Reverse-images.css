@@ -2,14 +2,11 @@
   object-fit: cover;
 }
 
-img {
-}
-
 .skillsinfo {
-  margin-top: 50px;
+  margin-top: 64px;
   margin-right: 0px;
   margin-left: 52px;
-  width: 406px;
+  width: 430px;
   display: block;
   position: static;
 }
@@ -29,9 +26,22 @@ img {
   min-height: 300px;
   padding-right: 0px;
   transition: none;
-  margin-left: -63px;
-  width: 354px;
-  height: 313px;
+  margin-top: 38px;
+  margin-left: -55px;
+  width: 450px;
+  height: 340px;
+}
+
+@media (max-width: 420px) {
+  .myavatar {
+    min-height: 300px;
+    padding-right: 0px;
+    transition: none;
+    margin-top: 38px;
+    margin-left: -45px;
+    width: 350px;
+    height: 240px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -40,29 +50,34 @@ img {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 640px) {
   .navbar-brand {
     margin-left: 187px;
     visibility: hidden;
   }
 }
 
-.myavatar {
-  min-height: 300px;
-  padding-right: 0px;
-  transition: none;
-  margin-left: -55px;
-  width: 350px;
-  height: 300px;
+@media (max-width: 340px) {
+  .myavatar {
+    min-height: 300px;
+    padding-right: 0px;
+    transition: none;
+    margin-top: 38px;
+    margin-left: -55px;
+    width: 150px;
+    height: 40px;
+  }
 }
 
-.skillsinfo {
-  margin-top: 50px;
-  margin-right: 0px;
-  margin-left: 20px;
-  width: 320px;
-  display: block;
-  position: static;
+@media (max-width: 640px) {
+  .skillsinfo {
+    margin-top: 90px;
+    margin-right: 0px;
+    margin-left: 20px;
+    width: 340px;
+    display: block;
+    position: static;
+  }
 }
 
 .aboutmetext {
@@ -74,20 +89,6 @@ img {
   margin-top: 74px;
   margin-left: 32px;
   color: rgb(78,78,78);
-}
-
-@media (max-width: 440px) {
-  img {
-    /*width: 50px;*/
-    /*visibility: hidden;*/
-  }
-}
-
-@media (min-width: 1200px) {
-  .rounded img-fluid w-100 fit-cover {
-    width: 354px;
-    height: 313px;
-  }
 }
 
 @media (min-width: 1200px) {
